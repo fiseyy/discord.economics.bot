@@ -3,17 +3,18 @@ __Данный код был написан как пример того, как
 
 **Требования / Requirements:**
 
-![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/7a46e353-b003-4a5f-9f21-e315d651f91d)
-
 - VSCode
 
-![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/28ff9718-2d15-4da0-9fb3-06b4d9faa532)
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/7a46e353-b003-4a5f-9f21-e315d651f91d)
 
 - Расширение Python Environment Manager для VSCode
 
-![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/a2253f6c-71e0-4cfc-a1fa-c188d1d50f9d)
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/28ff9718-2d15-4da0-9fb3-06b4d9faa532)
 
 - Установленный python и pip
+
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/a2253f6c-71e0-4cfc-a1fa-c188d1d50f9d)
+
 
 --------------------------
 
