@@ -43,6 +43,7 @@ async def hi(ctx):
 # Команда для добавления монет пользователю
 @bot.command()
 @commands.has_permissions(administrator=True)
+# @commands.has_any_role(ROLE ID) - если надо по отдельному id роли
 async def add_coins(ctx, member: discord.Member, amount: int):
     data = load_data()
     user_id = str(member.id)
