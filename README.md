@@ -22,8 +22,8 @@ VSCode
 4. Открыть shell (Ctrl + Shift + ~)
 5. прописать команду ```.venv/Scripts/activate```
 7. вписать токен в main.py в самом низу
-8.
-9. ![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/d0780c96-8aab-4913-b73e-eaf516f4acaa)
-10. сохранить main.py
-11. запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
+
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/d0780c96-8aab-4913-b73e-eaf516f4acaa)
+8. сохранить main.py
+9. запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
 PROFIT
