@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import os
 
 intents = discord.Intents.default()
 intents.members = True
@@ -15,6 +16,9 @@ def save_data(data):
 
 
 def load_data():
+    if not os.path.exists("data.json"):
+        with open("data.json", "w") as f:
+            json.dump({}, f)
     with open("data.json", "r") as f:
         return json.load(f)
 
@@ -24,6 +28,9 @@ def load_data():
 async def balance(ctx):
     data = load_data()
     user_id = str(ctx.author.id)
+    if user_id not in data:
+        data[user_id] = 0
+        save_data(data)
     balance = data.get(user_id, 0)
     await ctx.send(f"{ctx.author.mention}, ваш баланс: {balance} монет.")
 
@@ -39,7 +46,10 @@ async def hi(ctx):
 async def add_coins(ctx, member: discord.Member, amount: int):
     data = load_data()
     user_id = str(member.id)
-    data[user_id] = data.get(user_id, 0) + amount
+    if user_id not in data:
+        data[user_id] = 0
+        save_data(data)
+    data[user_id] += amount
     save_data(data)
     await ctx.send(f"{member.mention}, вам было добавлено {amount} монет.")
 
@@ -49,6 +59,9 @@ async def add_coins(ctx, member: discord.Member, amount: int):
 async def buy(ctx, item_name: str):
     data = load_data()
     user_id = str(ctx.author.id)
+    if user_id not in data:
+        data[user_id] = 0
+        save_data(data)
     balance = data.get(user_id, 0)
 
     # Список предметов и их стоимость
