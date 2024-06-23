@@ -1,5 +1,6 @@
 **Приветствую всех!**
 __Данный код был написан как пример того, как можно создать бота в дискорд.__
+
 **Требования: / Requirements:**
 
 ![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/7a46e353-b003-4a5f-9f21-e315d651f91d)
