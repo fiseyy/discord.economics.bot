@@ -24,13 +24,14 @@ __Данный код был написан как пример того, как
 2. Скачать репозиторий (git clone либо вручную)
 3. Разархивировать и открыть в VSCode
 4. Открыть shell (Ctrl + Shift + ~)
-5. прописать команду ```.venv/Scripts/activate```
-6. установить библиотеку discord командой ```pip install discord```
-7. вписать токен в main.py в самом низу
+5. Прописать команду ```.venv/Scripts/activate```
+6. Установить библиотеку discord командой ```pip install discord```
+7. Вписать токен в main.py в самом низу
 
 ![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/d0780c96-8aab-4913-b73e-eaf516f4acaa)
 
-8. сохранить main.py
-9. запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
+8. Сохранить main.py
 
-PROFIT
+**Запуск / Run:**
+1. Открыть shell (Ctrl + Shift + ~)
+2. Запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
