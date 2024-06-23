@@ -3,6 +3,8 @@ from discord.ext import commands
 import json
 
 intents = discord.Intents.default()
+intents.members = True
+intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
@@ -24,6 +26,11 @@ async def balance(ctx):
     user_id = str(ctx.author.id)
     balance = data.get(user_id, 0)
     await ctx.send(f"{ctx.author.mention}, ваш баланс: {balance} монет.")
+
+
+@bot.command()
+async def test(ctx):
+    await ctx.send(f"Привет, {ctx.author.mention}")
 
 
 # Команда для добавления монет пользователю
@@ -71,4 +78,4 @@ async def buy(ctx, item_name: str):
 
 
 # Запускаем бота
-bot.run("ваш_токен_бота")
+bot.run("TOKEN")
