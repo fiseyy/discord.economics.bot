@@ -29,4 +29,5 @@ VSCode
 
 8. сохранить main.py
 9. запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
+
 PROFIT
