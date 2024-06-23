@@ -29,7 +29,7 @@ async def balance(ctx):
 
 
 @bot.command()
-async def test(ctx):
+async def hi(ctx):
     await ctx.send(f"Привет, {ctx.author.mention}")
 
 
