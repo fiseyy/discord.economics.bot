@@ -25,11 +25,11 @@ __Данный код был написан как пример того, как
 3. Разархивировать и открыть в VSCode
 4. Открыть shell (Ctrl + Shift + ~)
 5. Установить библиотеку discord командой ```pip install discord```
-6. Вписать токен в main.py в самом низу
+6. Вписать токен в файл "token.txt"
 
-![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/d0780c96-8aab-4913-b73e-eaf516f4acaa)
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/fca9757c-7e64-4bd2-be1f-2959ce99a76e)
 
-7. Сохранить main.py
+7. Сохранить и закрыть файл
 
 --------------------------
 
