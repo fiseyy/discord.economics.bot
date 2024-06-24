@@ -5,6 +5,10 @@ from commands import setup
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
+
+with open("token.txt", "r") as f:
+    token = f.read().strip()
+
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 
@@ -23,7 +27,6 @@ async def on_command_error(ctx, error):
         raise error
 
 
-# bot.load_extension("commands")
 setup(bot)
 
-bot.run("TOKEN")
+bot.run(token)
