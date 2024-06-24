@@ -48,10 +48,10 @@ __Данный код был написан как пример того, как
 
 **Запуск / Run:**
 
-WINDOWS:
+**WINDOWS**
 1. Открыть файл "start.bat"
 
-LINUX:
+**LINUX**
 ```bash
 python main.py
 ```
