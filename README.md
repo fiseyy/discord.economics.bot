@@ -22,18 +22,15 @@ __Данный код был написан как пример того, как
 
 1. Убедиться, что установлен VSCode, Python, для него pip и environment.
 2. Скачать репозиторий (git clone либо вручную)
-3. Разархивировать и открыть в VSCode
-4. Открыть shell (Ctrl + Shift + ~)
-5. Установить библиотеку discord командой ```pip install discord```
-6. Вписать токен в файл "token.txt"
+3. Разархивировать архив
+4. Запустить файл "install.bat" (если увидели фразу "ALL REQUIREMENTS ARE INSTALLED", то всё успешно установлено)
+5. Вписать токен в файл "token.txt"
 
 ![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/fca9757c-7e64-4bd2-be1f-2959ce99a76e)
 
-7. Сохранить и закрыть файл
+6. Сохранить и закрыть файл
 
 --------------------------
 
 **Запуск / Run:**
-1. Открыть shell (Ctrl + Shift + ~)
-2. Прописать команду ```.venv/Scripts/activate```
-3. Запустить скрипт с помощью команды ```python main.py``` или ```python3 main.py```
+1. Открыть файл "start.bat"
