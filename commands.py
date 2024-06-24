@@ -82,8 +82,8 @@ def setup(bot):
 
     # Команда для добавления монет пользователю
     @bot.command(help="Добавляет денег человеку")
-    @commands.has_permissions(administrator=True)
-    # @commands.has_any_role(ROLE ID) - если надо по отдельному id роли
+    # @commands.has_permissions(administrator=True)
+    @commands.has_any_role(1254537543458885752)
     async def add_coins(ctx, member: discord.Member, amount: int):
         data = load_data()
         user_id = str(member.id)
@@ -93,6 +93,17 @@ def setup(bot):
         data[user_id] += amount
         save_data(data)
         await ctx.send(f"{member.mention}, вам было добавлено {amount} монет.")
+
+    # @add_coins.error
+    # async def add_coins_error(ctx, error):
+    #     if isinstance(error, commands.MissingPermissions):
+    #         await ctx.send(f"Недостаточно прав, {ctx.author.mention}!")
+    #     elif isinstance(error, commands.MissingAnyRole):
+    #         await ctx.send(
+    #             f"У вас нет роли, необходимой для выполнения этой команды, {ctx.author.mention}!"
+    #         )
+    #     else:
+    #         await ctx.send(f"Ошибка: {str(error)}")
 
     @bot.command(help="Список работ")
     async def work_list(ctx):
