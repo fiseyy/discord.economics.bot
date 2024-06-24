@@ -5,7 +5,8 @@ __Данный код был написан как пример того, как
 
 - Установленный python
 
-![Uploading image.png…]()
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/72f65968-a7bc-4325-9fab-30e33d8d16ec)
+
 
 
 --------------------------
