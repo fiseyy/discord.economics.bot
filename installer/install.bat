@@ -1,0 +1,2 @@
+@echo off
+cd .. & python installer/install-pip.py & pip install colorama & pip install discord &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. & echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. &echo. & echo. &echo. &echo. &echo. &echo ALL REQUIREMENTS ARE INSTALLED & timeout /t 10
