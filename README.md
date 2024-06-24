@@ -32,7 +32,7 @@ __Данный код был написан как пример того, как
    pip install colorama
    pip install discord
 ```
-  или
+или
   ```bash
    sudo dnf install python-pip
    pip install colorama
