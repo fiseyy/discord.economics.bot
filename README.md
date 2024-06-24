@@ -26,12 +26,12 @@ __Данный код был написан как пример того, как
 6. Сохранить и закрыть файл
 
 **LINUX**
-1. Пропишите данные команды в терминал Linux
-   ```bash
+Пропишите данные команды в терминал Linux
+ ```bash
    sudo apt install python-pip
    pip install colorama
    pip install discord
-   ```
+```
   или
   ```bash
    sudo dnf install python-pip
