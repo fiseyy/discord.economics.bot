@@ -31,15 +31,17 @@ __Данный код был написан как пример того, как
    sudo apt install python-pip
    pip install colorama
    pip install discord
+   nano token.txt
 ```
 или
   ```bash
    sudo dnf install python-pip
    pip install colorama
    pip install discord
+   nano token.txt
   ```
-
-(в зависимости от вашей системы)
+и в открывшемся окне пишите токен
+(в зависимости от вашей системы Linux выберите нужный способ)
 
 --------------------------
 
