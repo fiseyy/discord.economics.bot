@@ -5,7 +5,7 @@ __Данный код был написан как пример того, как
 
 - Установленный python
 
-![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/7b119947-8ee5-4465-b702-5ec8698067cc)
+![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/7b119947-8ee5-4465-b702-5ec8698067cc){: width="200" height="200"}
 
 --------------------------
 
