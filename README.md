@@ -16,7 +16,7 @@ __Данный код был написан как пример того, как
 1. Убедиться, что установлен Python
 2. Скачать репозиторий (git clone либо вручную)
 3. Разархивировать архив
-4. Запустить файл "install.bat" (если увидели фразу "ALL REQUIREMENTS ARE INSTALLED", то всё успешно установлено) (для windows)
+4. Запустить файл "install.bat" в папке installer. Если увидели фразу "ALL REQUIREMENTS ARE INSTALLED", то всё успешно установлено (для windows)
 5. Вписать токен в файл "token.txt"
 
 ![image](https://github.com/fiseyy/discord.economics.bot/assets/130793948/fca9757c-7e64-4bd2-be1f-2959ce99a76e)
