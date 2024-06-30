@@ -1,8 +1,9 @@
-import discord
-from discord.ext import commands
-from commands import setup
-from colorama import init, Fore, Style
 import datetime
+
+import discord
+from colorama import Fore, Style, init
+from commands import setup
+from discord.ext import commands
 
 init()  # Initialize colorama
 
