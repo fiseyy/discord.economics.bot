@@ -30,15 +30,13 @@ __Данный код был написан как пример того, как
 Пропишите данные команды в терминал Linux
  ```bash
    sudo apt install python-pip
-   pip install colorama
-   pip install discord
+   pip install -r requirements.txt
    nano token.txt
 ```
 или
   ```bash
    sudo dnf install python-pip
-   pip install colorama
-   pip install discord
+   pip install -r requirements.txt
    nano token.txt
   ```
 и в открывшемся окне пишите токен
